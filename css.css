@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+a {
+	text-decoration: none;
+	color: #0a1e4e;
+}
+p {
+	padding: 0px 0px 10% 0px;
+}
+body {
+	background-color: #EEEFD5;
+}
+.text {
+	font-family: "Futurist Fixed-width";
+	color: #4B3318;
+}
+.head {
+	font-size: 40px;
+	width: 10em;
+	margin: auto;
+}
+.list {
+	font-size: 18px;
+	margin: auto;
+	text-align: right;
+	width: 375px;
+}
