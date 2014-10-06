@@ -1,32 +1,41 @@
 @charset "utf-8";
+@import url("Roboto/stylesheet.css");
+@import url("Futurist_Fixed_Width/stylesheet.css");
+@import url("Roboto_Light/stylesheet.css");
 
-@font-face {
-font-family: "Futurist Fixed-width";
-src: url(FUTRFW.TTF);
-}
+
+
+
 
 a {
 	text-decoration: none;
-	color: #0a1e4e;
+	font-family:Roboto;
+	color: #0b2d53;
+}
+a:visited {
+	color: #1e4a06;
 }
 p {
-	padding: 0px 0px 10% 0px;
+	margin: 25px auto auto auto;
+	width: 30em;
 }
 body {
-	background-color: #EEEFD5;
-}
-.text {
-	font-family: "Futurist Fixed-width";
-	color: #4B3318;
+	background-color: #fffde1;
+	background-image: url(footer.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position: right bottom;
 }
 .head {
-	font-size: 40px;
+	font-family: "Futurist Fixed Width";
+	font-size: 50px;
+	margin-left: auto;
+	margin-right: auto;
 	width: 10em;
-	margin: auto;
+	color: rgba(0,0,0,1.00);
 }
 .list {
-	font-size: 18px;
-	margin: auto;
-	text-align: right;
-	width: 375px;
+	font-family: "Roboto Light";
+	font-size: 15px;
+	color: #531f03;
 }
