@@ -15,21 +15,20 @@ a {
 a:visited {
 	color: #1e4a06;
 }
-div.links {
-	margin-left: auto;
-	margin-right: auto;
-	width: 19em;
-	font-family: "Roboto";
-	font-size: 17px;
-	color: #000000;	
-}
 p {
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 	width: 31em;
 	font-family: "Roboto Light";
-	font-size: 15px;
+	font-size: 20px;
 	color: #000000;
+}
+p.foot {
+	margin-left: auto;
+	margin-right: auto;
+	width: 11em;
+	font-size: 15px;
 }
 body {
 	background-color: #fff2a9;
@@ -38,8 +37,11 @@ body {
 	background-attachment:fixed;
 	background-position: right bottom;
 }
-img.header {
+header {
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
+	width: 3.5em;
+	font-family: "Roboto";
+	font-size: 80px;
+	color: #ffa3f5;
 }
