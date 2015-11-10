@@ -21,7 +21,7 @@ div.links {
 	width: 18em;
 	font-family: "Roboto";
 	font-size: 17px;
-	color: #000000;	
+	color: #000000;
 }
 table {
 	font-family: "Roboto";
@@ -29,6 +29,12 @@ table {
 	color: #000000;
 	margin-left: auto;
 	margin-right: auto;
+}
+td.divider {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #ffa3f5;
+	font-size: 28px;
 }
 p {
 	margin-left: auto;
