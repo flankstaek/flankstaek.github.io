@@ -23,6 +23,11 @@ div.links {
 	font-size: 17px;
 	color: #000000;
 }
+span.wip {
+	vertical-align: center;
+	font-size: 20px;
+	color: #ffa3f5;
+}
 table {
 	font-family: "Roboto";
 	font-size: 17px;
