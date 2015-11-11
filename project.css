@@ -51,7 +51,7 @@ p.foot {
 }
 body {
 	background-color: #fff2a9;
-	background-image: url(footer.png);
+	background-image: url(imgs/footer.png);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-position: right bottom;
