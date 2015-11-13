@@ -22,7 +22,19 @@ div.title { height: 38px; line-height: 38px; padding: 0 10px; margin: 0 1px 0 0;
 .template-wrap { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 .template-wrap canvas { margin: 0 0 10px 0; position: relative; z-index: 9; box-shadow: 0 10px 30px rgba(0,0,0,0.2); -moz-box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
 .fullscreen { float: right; position: relative; z-index: 10; }
-
+p {
+	margin-left: auto;
+	margin-right: auto;
+	width: 30em;
+	font-family: "Roboto Light";
+	font-size: 15px;
+	color: #000000;
+}
+p.foot {
+	margin-left: auto;
+	margin-right: auto;
+	width: 11em;
+}
 body.template { }
 .template .template-wrap { }
 .template .template-wrap canvas { }
